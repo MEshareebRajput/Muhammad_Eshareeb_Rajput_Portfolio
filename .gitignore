@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Optional lock files
+# package-lock.json
+# yarn.lock
