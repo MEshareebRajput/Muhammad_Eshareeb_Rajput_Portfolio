@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensure referrer is sent for FormSubmit validation -->
+    <meta name="referrer" content="origin" />
+    <title>Muhammad Eshareeb Rajput</title>
+    <link rel="icon" type="image/png" href="https://scontent.fkhi8-1.fna.fbcdn.net/v/t39.30808-1/586171260_122183052608512663_9151728751127118408_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_ohc=Xx3_llil2PwQ7kNvwHPF9VH&_nc_oc=AdnblfJ4oxH6eKpxdt8_w2BqQhCCx9y_mvEq8mhd67CJcIufAmm0Xyt8CrLUdXAx63Q&_nc_zt=24&_nc_ht=scontent.fkhi8-1.fna&_nc_gid=HE38vtcgI5ZiYSi_OgHO0Q&oh=00_AfqQefX3FTuD90aXaoZZAWPKFvm-rP89eo8eoa8txkdzAg&oe=695F6938" />
+    <!-- Google Fonts: Playfair Display (Serif) and Inter (Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['"Playfair Display"', 'serif'],
+            },
+            colors: {
+              zinc: {
+                850: '#1f1f22',
+                950: '#0a0a0b',
+              }
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+              'slide-in-right': 'slideInRight 0.8s ease-out forwards',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              slideInRight: {
+                '0%': { opacity: '0', transform: 'translateX(-20px)' },
+                '100%': { opacity: '1', transform: 'translateX(0)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for a premium feel */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+      body {
+        background-color: #000;
+        color: #fff;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-cOZpJgGt.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
