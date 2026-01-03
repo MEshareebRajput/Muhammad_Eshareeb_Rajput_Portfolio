@@ -20,5 +20,8 @@
   "devDependencies": {
     "typescript": "~5.8.2",
     "@types/node": "^22.14.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
