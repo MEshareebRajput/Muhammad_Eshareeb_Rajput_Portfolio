@@ -12,8 +12,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="absolute -inset-4 border border-zinc-700 translate-x-4 translate-y-4 -z-10"></div>
             <img 
-              src="https://scontent.fkhi8-1.fna.fbcdn.net/v/t39.30808-6/586171260_122183052608512663_9151728751127118408_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Xx3_llil2PwQ7kNvwHPF9VH&_nc_oc=AdnblfJ4oxH6eKpxdt8_w2BqQhCCx9y_mvEq8mhd67CJcIufAmm0Xyt8CrLUdXAx63Q&_nc_zt=23&_nc_ht=scontent.fkhi8-1.fna&_nc_gid=ytHG0aYIGDT8zh3LnSg_fQ&oh=00_Afo8JEiyL1K3CK8Dpg8pT0CHNak3pSTLue8eK3f16m8T6Q&oe=695F2CD3" 
-              alt="About Muhammad Eshareeb" 
+              src="https://scontent.fkhi8-1.fna.fbcdn.net/v/t39.30808-6/586171260_122183052608512663_9151728751127118408_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=gNN6Jg2VxbgQ7kNvwFviGVG&_nc_oc=AdqggFqg_0oVyZi8OxfCEtMRM06zxsiS7nPQg5ZfRt4vviO_P35goM0yGnD7AcMHefE&_nc_zt=23&_nc_ht=scontent.fkhi8-1.fna&_nc_gid=Ep09X1cxfBFsyAGbKjBeIw&_nc_ss=7a32e&oh=00_AfzSNR9kwcpDSyRvfoU0B-8lqiCWepuLw0dRqzKIJj_0UA&oe=69CC6113" alt="About Muhammad Eshareeb" 
               className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500 object-cover shadow-2xl"
             />
           </div>
