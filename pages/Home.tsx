@@ -62,7 +62,7 @@ const Home: React.FC = () => {
           <AnimWrapper animation="zoom-in" delay={300}>
             <div className="relative aspect-[3/4] bg-zinc-900 rounded-sm overflow-hidden border border-zinc-800 group">
               <img 
-                src="https://scontent.fkhi8-1.fna.fbcdn.net/v/t39.30808-6/588641536_122183775542512663_6342891929635303843_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vXA8iVNHoy0Q7kNvwFkm1Sq&_nc_oc=Adk2uptkeq3ihSwW4FNw9QNoh-gEhU5pfo3q0vX939MsyUQ8m7-JDqN0m_99ImbZaoI&_nc_zt=23&_nc_ht=scontent.fkhi8-1.fna&_nc_gid=4P4rdGm6va49-W8_SrMsrA&oh=00_AfqwLWsnmso_DY_-xmEZ0z7tdOkDT7vUfnSlnryFIBwPmA&oe=695F5C2E"
+                src="https://scontent.fkhi8-1.fna.fbcdn.net/v/t39.30808-6/586171260_122183052608512663_9151728751127118408_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=gNN6Jg2VxbgQ7kNvwFviGVG&_nc_oc=AdqggFqg_0oVyZi8OxfCEtMRM06zxsiS7nPQg5ZfRt4vviO_P35goM0yGnD7AcMHefE&_nc_zt=23&_nc_ht=scontent.fkhi8-1.fna&_nc_gid=Ep09X1cxfBFsyAGbKjBeIw&_nc_ss=7a32e&oh=00_AfzSNR9kwcpDSyRvfoU0B-8lqiCWepuLw0dRqzKIJj_0UA&oe=69CC6113"
                 alt="Muhammad Eshareeb" 
                 className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
               />
