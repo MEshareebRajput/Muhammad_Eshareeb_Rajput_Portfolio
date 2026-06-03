@@ -110,7 +110,7 @@ export const PROJECTS: Project[] = [
     title: 'Sukoon Mental Health Website',
     description: 'A modern and fully responsive WordPress website designed for mental health services.',
     category: 'WordPress',
-    imageUrl: 'https://scontent.fkhi8-1.fna.fbcdn.net/v/t39.30808-6/590752097_122183874116512663_6639185566910054252_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MuuUEPrZM6QQ7kNvwGYMst1&_nc_oc=AdmDdWZwst_HClbmayE6l8sINnPJgrQ1NbvU2aDJz9qhU-7dwSsdMA4l2uNalWKKAgE&_nc_zt=23&_nc_ht=scontent.fkhi8-1.fna&_nc_gid=RLKB33L9FNcvu6HyknrBNA&oh=00_AfrQfz_Y8AlfmL5kESslZZV5bXIsY3fwV6k5A07pNlEBLw&oe=695F575A',
+    imageUrl: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80',
     link: 'https://sukoonmentalhealth.com/'
   },
   {
@@ -118,7 +118,7 @@ export const PROJECTS: Project[] = [
     title: 'Unique Aesthetic Clinic Website',
     description: 'A clean and elegant WordPress site built for an aesthetic clinic to improve online presence.',
     category: 'WordPress',
-    imageUrl: 'https://scontent.fkhi8-1.fna.fbcdn.net/v/t39.30808-6/590354468_122183874494512663_8541853880289647152_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XoL5KUk2FVsQ7kNvwGKk-I8&_nc_oc=AdnlFhQ2MwmN4jSiwmfRRcHfACorlYcKQfsYKnFPHjgxRCQvOOqa6vhQ8aAkBqEPKhw&_nc_zt=23&_nc_ht=scontent.fkhi8-1.fna&_nc_gid=LKjWETlQBwiDx-ijrWkfcg&oh=00_AfoXXLO_l1C_57kBOBl9bqdgsZHYfEX38sJ7NXlh1sCwpw&oe=695F4C29',
+    imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80',
     link: 'https://uniqueaesthetic.ca/'
   },
   {
@@ -126,7 +126,7 @@ export const PROJECTS: Project[] = [
     title: 'MR Clothing Craft',
     description: 'A fully functional Shopify store for a clothing brand with theme customization, product setup, and a seamless shopping experience.',
     category: 'Shopify',
-    imageUrl: 'https://img.freepik.com/free-vector/clothing-store-concept-illustration_114360-8026.jpg?w=740',
+    imageUrl: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80',
     link: 'https://mrclothingcraft.com/'
   },
   {
@@ -134,7 +134,7 @@ export const PROJECTS: Project[] = [
     title: 'DM E-Commerce Store',
     description: 'A fully functional Shopify store with theme customization, product setup, and optimized checkout flow. (Password: 123456)',
     category: 'Shopify',
-    imageUrl: 'https://scontent.fkhi8-1.fna.fbcdn.net/v/t39.30808-6/590752097_122183874116512663_6639185566910054252_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MuuUEPrZM6QQ7kNvwGYMst1&_nc_oc=AdmDdWZwst_HClbmayE6l8sINnPJgrQ1NbvU2aDJz9qhU-7dwSsdMA4l2uNalWKKAgE&_nc_zt=23&_nc_ht=scontent.fkhi8-1.fna&_nc_gid=_90KrqkaB4B8DlXvmoLMdA&oh=00_Afq6rLls3W3nZyg3sFTJSHKft3kP9MSU8rWrJXZOnT_Fpw&oe=695F575A',
+    imageUrl: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80',
     link: 'https://dm-muhammadeshareeb-24-10-2025-443660.myshopify.com/'
   },
   {
