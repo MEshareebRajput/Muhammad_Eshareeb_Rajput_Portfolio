@@ -18,7 +18,7 @@ import { Project, Skill, Service, Experience, SocialLink } from './types';
 export const PERSONAL_INFO = {
   name: "Muhammad Eshareeb",
   title: "WORDPRESS | SHOPIFY | DIGITAL MARKETING",
-  bio: "I’m a web developer focused on WordPress, with experience in Shopify and building complete websites. I also work on digital marketing and branding, creating impactful online solutions that help businesses grow.",
+  bio: "I'm a web developer focused on WordPress, with experience in Shopify and building complete websites. I also work on digital marketing and branding, creating impactful online solutions that help businesses grow.",
   location: "Karachi, Pakistan",
   email: "muhammadeshareeb986@gmail.com",
   phone: "+92 328 2300151"
@@ -47,9 +47,9 @@ export const SKILLS: Skill[] = [
   { name: "Logo Designing", level: 90, category: "Design" },
 
   { name: "UGC Video Creation", level: 92, category: "Video" },
-{ name: "Video Editing", level: 92, category: "Video" },
-{ name: "Animated Video Creation", level: 90, category: "Video" },
-{ name: "Short-Form Videos (Reels / Ads)", level: 92, category: "Video" },
+  { name: "Video Editing", level: 92, category: "Video" },
+  { name: "Animated Video Creation", level: 90, category: "Video" },
+  { name: "Short-Form Videos (Reels / Ads)", level: 92, category: "Video" },
 ];
 
 
@@ -90,12 +90,12 @@ export const SERVICES: Service[] = [
     description: 'Authentic UGC-style videos that build trust and boost conversions for e-commerce brands.',
     icon: Smartphone
   },
- {
-  id: '6',
-  title: 'Video Editing',
-  description: 'Professional short-form video editing for reels, ads, and brand content.',
-  icon: Video
-},
+  {
+    id: '6',
+    title: 'Video Editing',
+    description: 'Professional short-form video editing for reels, ads, and brand content.',
+    icon: Video
+  },
   {
     id: '7',
     title: 'Animated Videos',
