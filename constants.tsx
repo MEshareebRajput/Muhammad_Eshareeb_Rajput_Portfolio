@@ -25,8 +25,8 @@ export const PERSONAL_INFO = {
 };
 export const SKILLS: Skill[] = [
   // TECH
-  { name: "WordPress", level: 95, category: "Tech" },
-  { name: "Shopify", level: 90, category: "Tech" },
+  { name: "WordPress", level: 75, category: "Tech" },
+  { name: "Shopify", level: 95, category: "Tech" },
   
   // MARKETING
   { name: "Digital Marketing", level: 92, category: "Marketing" },
