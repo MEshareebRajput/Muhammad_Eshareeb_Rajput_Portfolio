@@ -123,6 +123,14 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '3',
+    title: 'MR Clothing Craft',
+    description: 'A fully functional Shopify store for a clothing brand with theme customization, product setup, and a seamless shopping experience.',
+    category: 'Shopify',
+    imageUrl: 'https://img.freepik.com/free-vector/clothing-store-concept-illustration_114360-8026.jpg?w=740',
+    link: 'https://mrclothingcraft.com/'
+  },
+  {
+    id: '4',
     title: 'DM E-Commerce Store',
     description: 'A fully functional Shopify store with theme customization, product setup, and optimized checkout flow. (Password: 123456)',
     category: 'Shopify',
@@ -130,7 +138,7 @@ export const PROJECTS: Project[] = [
     link: 'https://dm-muhammadeshareeb-24-10-2025-443660.myshopify.com/'
   },
   {
-    id: '4',
+    id: '5',
     title: 'Logo Designing',
     description: 'Professional modern, minimal, and vintage logo designing for brands, startups, and businesses.',
     category: 'Design',
@@ -138,7 +146,7 @@ export const PROJECTS: Project[] = [
     link: 'https://drive.google.com/drive/folders/1dWtCPsmro1CS2tRNWt8frVItcgEVpoJr?usp=drive_link'
   },
   {
-    id: '5',
+    id: '6',
     title: 'Poster Designing',
     description: 'Custom poster designs for branding, events, promotions, and marketing campaigns.',
     category: 'Design',
@@ -146,7 +154,7 @@ export const PROJECTS: Project[] = [
     link: 'https://drive.google.com/drive/folders/15zyJtRHnXwYEJoV8pDLVCAVKFdi-PcqZ?usp=sharing'
   },
   {
-    id: '6',
+    id: '7',
     title: 'Flyer Designing',
     description: 'Creative flyer designs for marketing, advertisement, and business promotions.',
     category: 'Design',
@@ -154,7 +162,7 @@ export const PROJECTS: Project[] = [
     link: 'https://drive.google.com/drive/folders/15zyJtRHnXwYEJoV8pDLVCAVKFdi-PcqZ?usp=sharing'
   },
   {
-    id: '7',
+    id: '8',
     title: 'UGC Video Ads for E-commerce',
     description: 'High-converting UGC ads designed for Facebook and Instagram to increase ROAS.',
     category: 'Video',
@@ -162,7 +170,7 @@ export const PROJECTS: Project[] = [
     link: 'https://drive.google.com/drive/folders/15u2aKT8_lswSlEhU0f31lxuYQowhclPa?usp=sharing'
   },
   {
-    id: '8',
+    id: '9',
     title: 'Animated Promo Videos',
     description: 'Creative animated videos for promotions, ads, and social media branding.',
     category: 'Video',
@@ -170,7 +178,7 @@ export const PROJECTS: Project[] = [
     link: 'https://drive.google.com/drive/folders/10Iy_IxM7TlBH_cIZqS1h5rjlNM_tbCXU?usp=sharing'
   },
   {
-    id: '9',
+    id: '10',
     title: 'Video Editing',
     description: 'Professional video editing for ads, reels, and brand content to enhance engagement and conversions.',
     category: 'Video',
