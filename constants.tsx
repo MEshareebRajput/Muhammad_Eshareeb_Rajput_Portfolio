@@ -25,8 +25,8 @@ export const PERSONAL_INFO = {
 };
 export const SKILLS: Skill[] = [
   // TECH
-  { name: "WordPress", level: 75, category: "Tech" },
-  { name: "Shopify", level: 95, category: "Tech" },
+  { name: "WordPress", level: 95, category: "Tech" },
+  { name: "Shopify", level: 90, category: "Tech" },
   
   // MARKETING
   { name: "Digital Marketing", level: 92, category: "Marketing" },
@@ -202,6 +202,13 @@ export const INTERNSHIPS: Experience[] = [
     role: 'WordPress Developer Intern',
     company: 'Marcos Technology',
     description: 'Built SEO-optimized WordPress websites aligned with business goals.'
+  },
+  {
+    id: '3',
+    year: '2025',
+    role: 'Social Media Manager & Shopify Developer Intern',
+    company: 'MR Clothing Craft',
+    description: 'Completed a 4-month internship managing social media accounts and developing the Shopify store. Handled content creation, ad campaigns, theme customization, and product setup to grow the brand online.'
   }
 ];
 
@@ -245,6 +252,13 @@ export const BRAND_EXPERIENCE: Experience[] = [
     role: 'Social Media Manager & Designer',
     company: 'Flex Wear',
     description: 'Handled Instagram and Facebook pages, created engaging posts, designed marketing visuals, and coordinated ad campaigns to drive online sales and brand growth.'
+  },
+  {
+    id: '3',
+    year: '2025',
+    role: 'Social Media Manager & Shopify Developer',
+    company: 'MR Clothing Craft',
+    description: 'Worked for 4 months as Social Media Manager and Shopify Developer. Managed and grew social media accounts, created engaging content, and built & customized the Shopify store to enhance user experience and drive online sales.'
   }
 ];
 
