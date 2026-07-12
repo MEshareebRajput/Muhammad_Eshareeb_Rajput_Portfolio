@@ -1,6 +1,5 @@
 import { 
   ShoppingBag, 
-  Code, 
   BarChart, 
   Linkedin, 
   Github, 
@@ -9,23 +8,20 @@ import {
   Mail,
   Smartphone,
   Brush,
-  Video,
-  Film,
   Layers
 } from 'lucide-react';
 import { Project, Skill, Service, Experience, SocialLink } from './types';
 
 export const PERSONAL_INFO = {
   name: "Muhammad Eshareeb",
-  title: "WORDPRESS | SHOPIFY | DIGITAL MARKETING",
-  bio: "I'm a web developer focused on WordPress, with experience in Shopify and building complete websites. I also work on digital marketing and branding, creating impactful online solutions that help businesses grow.",
+  title: "SHOPIFY | DIGITAL MARKETING | SOCIAL MEDIA",
+  bio: "I'm a Shopify developer with experience in building complete websites. I also work on digital marketing and branding, creating impactful online solutions that help businesses grow.",
   location: "Karachi, Pakistan",
   email: "muhammadeshareeb986@gmail.com",
   phone: "+92 328 2300151"
 };
 export const SKILLS: Skill[] = [
   // TECH
-  { name: "WordPress", level: 95, category: "Tech" },
   { name: "Shopify", level: 90, category: "Tech" },
   
   // MARKETING
@@ -47,7 +43,6 @@ export const SKILLS: Skill[] = [
   { name: "Logo Designing", level: 90, category: "Design" },
 
   { name: "UGC Video Creation", level: 92, category: "Video" },
-  { name: "Video Editing", level: 92, category: "Video" },
   { name: "Animated Video Creation", level: 90, category: "Video" },
   { name: "Short-Form Videos (Reels / Ads)", level: 92, category: "Video" },
 ];
@@ -60,16 +55,10 @@ export const SERVICES: Service[] = [
     description: 'Building and customizing Shopify stores to enhance user experience and drive sales.',
     icon: ShoppingBag
   },
-  {
-    id: '2',
-    title: 'WordPress Customization',
-    description: 'Professional WordPress websites optimized for performance, SEO, and conversions.',
-    icon: Code
-  },
 
   // MARKETING
   {
-    id: '3',
+    id: '2',
     title: 'Digital Marketing & Branding',
     description: 'Result-driven digital marketing, branding, and social media growth strategies.',
     icon: BarChart
@@ -77,7 +66,7 @@ export const SERVICES: Service[] = [
 
   // DESIGN
   {
-    id: '4',
+    id: '3',
     title: 'Canva & Graphic Design',
     description: 'Professional designs including posters, flyers, logos, business cards, banners, and social media graphics.',
     icon: Brush
@@ -85,19 +74,13 @@ export const SERVICES: Service[] = [
 
   // VIDEO
   {
-    id: '5',
+    id: '4',
     title: 'UGC Video Creation',
     description: 'Authentic UGC-style videos that build trust and boost conversions for e-commerce brands.',
     icon: Smartphone
   },
   {
-    id: '6',
-    title: 'Video Editing',
-    description: 'Professional short-form video editing for reels, ads, and brand content.',
-    icon: Video
-  },
-  {
-    id: '7',
+    id: '5',
     title: 'Animated Videos',
     description: 'Eye-catching animated videos and motion graphics for ads, promos, and brand storytelling.',
     icon: Layers
@@ -107,22 +90,6 @@ export const SERVICES: Service[] = [
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Sukoon Mental Health Website',
-    description: 'A modern and fully responsive WordPress website designed for mental health services.',
-    category: 'WordPress',
-    imageUrl: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80',
-    link: 'https://sukoonmentalhealth.com/'
-  },
-  {
-    id: '2',
-    title: 'Unique Aesthetic Clinic Website',
-    description: 'A clean and elegant WordPress site built for an aesthetic clinic to improve online presence.',
-    category: 'WordPress',
-    imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80',
-    link: 'https://uniqueaesthetic.ca/'
-  },
-  {
-    id: '3',
     title: 'MR Clothing Craft',
     description: 'A fully functional Shopify store for a clothing brand with theme customization, product setup, and a seamless shopping experience.',
     category: 'Shopify',
@@ -130,7 +97,7 @@ export const PROJECTS: Project[] = [
     link: 'https://mrclothingcraft.com/'
   },
   {
-    id: '4',
+    id: '2',
     title: 'DM E-Commerce Store',
     description: 'A fully functional Shopify store with theme customization, product setup, and optimized checkout flow. (Password: 123456)',
     category: 'Shopify',
@@ -138,7 +105,7 @@ export const PROJECTS: Project[] = [
     link: 'https://dm-muhammadeshareeb-24-10-2025-443660.myshopify.com/'
   },
   {
-    id: '5',
+    id: '3',
     title: 'Logo Designing',
     description: 'Professional modern, minimal, and vintage logo designing for brands, startups, and businesses.',
     category: 'Design',
@@ -146,7 +113,7 @@ export const PROJECTS: Project[] = [
     link: 'https://drive.google.com/drive/folders/1dWtCPsmro1CS2tRNWt8frVItcgEVpoJr?usp=drive_link'
   },
   {
-    id: '6',
+    id: '4',
     title: 'Poster Designing',
     description: 'Custom poster designs for branding, events, promotions, and marketing campaigns.',
     category: 'Design',
@@ -154,7 +121,7 @@ export const PROJECTS: Project[] = [
     link: 'https://drive.google.com/drive/folders/15zyJtRHnXwYEJoV8pDLVCAVKFdi-PcqZ?usp=sharing'
   },
   {
-    id: '7',
+    id: '5',
     title: 'Flyer Designing',
     description: 'Creative flyer designs for marketing, advertisement, and business promotions.',
     category: 'Design',
@@ -162,7 +129,7 @@ export const PROJECTS: Project[] = [
     link: 'https://drive.google.com/drive/folders/15zyJtRHnXwYEJoV8pDLVCAVKFdi-PcqZ?usp=sharing'
   },
   {
-    id: '8',
+    id: '6',
     title: 'UGC Video Ads for E-commerce',
     description: 'High-converting UGC ads designed for Facebook and Instagram to increase ROAS.',
     category: 'Video',
@@ -170,20 +137,12 @@ export const PROJECTS: Project[] = [
     link: 'https://drive.google.com/drive/folders/15u2aKT8_lswSlEhU0f31lxuYQowhclPa?usp=sharing'
   },
   {
-    id: '9',
+    id: '7',
     title: 'Animated Promo Videos',
     description: 'Creative animated videos for promotions, ads, and social media branding.',
     category: 'Video',
     imageUrl: 'https://img.freepik.com/free-psd/fashion-influencer-character-design_23-2151642550.jpg?semt=ais_hybrid&w=740&q=80',
     link: 'https://drive.google.com/drive/folders/10Iy_IxM7TlBH_cIZqS1h5rjlNM_tbCXU?usp=sharing'
-  },
-  {
-    id: '10',
-    title: 'Video Editing',
-    description: 'Professional video editing for ads, reels, and brand content to enhance engagement and conversions.',
-    category: 'Video',
-    imageUrl: 'https://img.freepik.com/premium-vector/video-editing-software-program-editing-video-project-sound-color-adjustment_681307-92.jpg',
-    link: 'https://drive.google.com/drive/folders/1MHqfFjK4_QMKtUHN2uux8CLWzqqu-PCa?usp=sharing'
   }
 ];
 
@@ -198,13 +157,6 @@ export const INTERNSHIPS: Experience[] = [
   },
   {
     id: '2',
-    year: '2025',
-    role: 'WordPress Developer Intern',
-    company: 'Marcos Technology',
-    description: 'Built SEO-optimized WordPress websites aligned with business goals.'
-  },
-  {
-    id: '3',
     year: '2025',
     role: 'Social Media Manager & Shopify Developer Intern',
     company: 'MR Clothing Craft',
