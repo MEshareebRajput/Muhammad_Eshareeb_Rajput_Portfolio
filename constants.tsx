@@ -6,9 +6,7 @@ import {
   Facebook, 
   Instagram, 
   Mail,
-  Smartphone,
-  Brush,
-  Layers
+  Smartphone
 } from 'lucide-react';
 import { Project, Skill, Service, Experience, SocialLink } from './types';
 
@@ -41,10 +39,6 @@ export const SKILLS: Skill[] = [
   { name: "Canva Pro Designing", level: 94, category: "Design" },
   { name: "Poster Designing", level: 92, category: "Design" },
   { name: "Logo Designing", level: 90, category: "Design" },
-
-  { name: "UGC Video Creation", level: 92, category: "Video" },
-  { name: "Animated Video Creation", level: 90, category: "Video" },
-  { name: "Short-Form Videos (Reels / Ads)", level: 92, category: "Video" },
 ];
 
 
@@ -62,28 +56,6 @@ export const SERVICES: Service[] = [
     title: 'Digital Marketing & Branding',
     description: 'Result-driven digital marketing, branding, and social media growth strategies.',
     icon: BarChart
-  },
-
-  // DESIGN
-  {
-    id: '3',
-    title: 'Canva & Graphic Design',
-    description: 'Professional designs including posters, flyers, logos, business cards, banners, and social media graphics.',
-    icon: Brush
-  },
-
-  // VIDEO
-  {
-    id: '4',
-    title: 'UGC Video Creation',
-    description: 'Authentic UGC-style videos that build trust and boost conversions for e-commerce brands.',
-    icon: Smartphone
-  },
-  {
-    id: '5',
-    title: 'Animated Videos',
-    description: 'Eye-catching animated videos and motion graphics for ads, promos, and brand storytelling.',
-    icon: Layers
   }
 ];
 
@@ -127,22 +99,6 @@ export const PROJECTS: Project[] = [
     category: 'Design',
     imageUrl: 'https://static-cse.canva.com/blob/1142712/Theultimateguidetoflyerdesign_featuredimage.bb4df331.jpg',
     link: 'https://drive.google.com/drive/folders/15zyJtRHnXwYEJoV8pDLVCAVKFdi-PcqZ?usp=sharing'
-  },
-  {
-    id: '6',
-    title: 'UGC Video Ads for E-commerce',
-    description: 'High-converting UGC ads designed for Facebook and Instagram to increase ROAS.',
-    category: 'Video',
-    imageUrl: 'https://cdn.sanity.io/images/xcatvyn0/production/1197e57e428cfe54bb17cac02cf84440b50fa4b6-1801x1201.png?fit=max&auto=format',
-    link: 'https://drive.google.com/drive/folders/15u2aKT8_lswSlEhU0f31lxuYQowhclPa?usp=sharing'
-  },
-  {
-    id: '7',
-    title: 'Animated Promo Videos',
-    description: 'Creative animated videos for promotions, ads, and social media branding.',
-    category: 'Video',
-    imageUrl: 'https://img.freepik.com/free-psd/fashion-influencer-character-design_23-2151642550.jpg?semt=ais_hybrid&w=740&q=80',
-    link: 'https://drive.google.com/drive/folders/10Iy_IxM7TlBH_cIZqS1h5rjlNM_tbCXU?usp=sharing'
   }
 ];
 
@@ -185,7 +141,7 @@ export const CERTIFICATIONS: Experience[] = [
     year: '2025',
     role: 'Digital Marketing Course (In Progress)',
     company: 'Saylani Mass IT Training Program',
-    description: 'Learning advanced digital marketing, UGC ads, social media strategy, and e-commerce campaigns.'
+    description: 'Learning advanced digital marketing, social media strategy, and e-commerce campaigns.'
   }
 ];
 
@@ -196,7 +152,7 @@ export const BRAND_EXPERIENCE: Experience[] = [
     year: '2025',
     role: 'Social Media & Brand Marketing',
     company: 'Chills Spice',
-    description: 'Managed social media accounts, ran Facebook & Instagram ad campaigns, created UGC content, and designed promotional graphics to increase brand awareness and engagement.'
+    description: 'Managed social media accounts, ran Facebook & Instagram ad campaigns, and designed promotional graphics to increase brand awareness and engagement.'
   },
   {
     id: '2',
