@@ -99,6 +99,46 @@ export const PROJECTS: Project[] = [
     category: 'Design',
     imageUrl: 'https://static-cse.canva.com/blob/1142712/Theultimateguidetoflyerdesign_featuredimage.bb4df331.jpg',
     link: 'https://drive.google.com/drive/folders/15zyJtRHnXwYEJoV8pDLVCAVKFdi-PcqZ?usp=sharing'
+  },
+  {
+    id: '6',
+    title: 'Top Paragon Resource',
+    description: 'WordPress website development, customization, and content management for a professional services business.',
+    category: 'WordPress',
+    imageUrl: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80',
+    link: 'https://topparagonresource.com/'
+  },
+  {
+    id: '7',
+    title: 'Tough Gym Fitness',
+    description: 'WordPress website development and customization for a gym and fitness brand.',
+    category: 'WordPress',
+    imageUrl: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80',
+    link: 'https://toughgymfitness.my/'
+  },
+  {
+    id: '8',
+    title: 'SoftGearX',
+    description: 'WordPress website development and content management for a software/tech product business.',
+    category: 'WordPress',
+    imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80',
+    link: 'https://softgearx.com/'
+  },
+  {
+    id: '9',
+    title: 'Hardware Galaxy',
+    description: 'WordPress website development for a B2B enterprise networking hardware supplier, including store management and content updates.',
+    category: 'WordPress',
+    imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80',
+    link: 'https://hardwaregalaxy.com/'
+  },
+  {
+    id: '10',
+    title: 'Aegean Finance',
+    description: 'Shopify store development and e-commerce setup for a finance-related brand.',
+    category: 'Shopify',
+    imageUrl: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80',
+    link: 'https://www.aegeanfinance.com.au/'
   }
 ];
 
