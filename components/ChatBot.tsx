@@ -219,7 +219,7 @@ const rules: Rule[] = [
   {
     test: q => /\b(wordpress|word press|woocommerce)\b/.test(q),
     reply: () => ({
-      text: `WordPress experience includes website development, customization and management, with WooCommerce-compatible e-commerce work. Here are the WordPress projects in the portfolio:`,
+      text: `WordPress experience includes website development, customization and management, with WooCommerce-compatible e-commerce work. Each WordPress project is shown as a separate card below — click a card to open it:`,
       projects: PROJECTS.filter(p => norm(p.category) === 'wordpress')
     })
   },
@@ -234,14 +234,14 @@ const rules: Rule[] = [
   {
     test: q => /\b(project|work|portfolio|recently|case stud|show me)\b/.test(q),
     reply: () => ({
-      text: `Here's a look at his portfolio projects:`,
+      text: `Here are some of ${KNOWLEDGE.name}'s portfolio projects. Each project is shown as a separate card below — click a card to open it.`,
       projects: PROJECTS
     })
   },
   {
     test: q => /\b(design|logo|poster|flyer|graphic)\b/.test(q),
     reply: () => ({
-      text: `Here's his design work:`,
+      text: `Here are his design and creative projects. Each project is shown as a separate card below — click a card to view it.`,
       projects: PROJECTS.filter(p => norm(p.category) === 'design')
     })
   },
@@ -347,23 +347,51 @@ const getAnswer = (question: string): { text: string; projects?: Project[]; show
 
 // ================== UI SUBCOMPONENTS ==================
 
-const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
-  <a
-    href={project.link}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="block bg-zinc-950 border border-zinc-800 rounded-md p-2.5 hover:border-zinc-600 transition group"
-  >
-    <div className="flex items-start justify-between gap-2">
-      <div className="min-w-0">
-        <p className="text-white text-xs font-semibold truncate">{project.title}</p>
-        <p className="text-zinc-400 text-[11px] mt-0.5 line-clamp-2">{project.description}</p>
-        <span className="inline-block mt-1 text-[10px] uppercase tracking-wide text-zinc-500">{project.category}</span>
+const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
+  const category = project.category || 'Project';
+  // Keep raw URLs/password notes out of the card body so the assistant looks clean.
+  const cleanDescription = (project.description || '')
+    .replace(/https?:\/\/\S+/gi, '')
+    .replace(/\b(password|pass)\s*:?\s*\S+/gi, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+
+  return (
+    <a
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group block overflow-hidden rounded-xl border border-zinc-800 bg-gradient-to-br from-zinc-950 to-zinc-900 hover:border-zinc-600 hover:-translate-y-0.5 transition-all duration-200"
+    >
+      <div className="p-3">
+        <div className="flex items-start justify-between gap-3">
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="rounded-full border border-zinc-700 bg-zinc-800/80 px-2 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-zinc-300">
+                {category}
+              </span>
+            </div>
+            <h4 className="text-sm font-semibold text-white leading-snug">{project.title}</h4>
+            <p className="mt-1.5 text-[11px] leading-relaxed text-zinc-400 line-clamp-3">
+              {cleanDescription || 'Portfolio project — click to view details.'}
+            </p>
+          </div>
+
+          <div className="shrink-0 rounded-lg border border-zinc-700 bg-zinc-800 p-1.5 text-zinc-400 group-hover:text-white group-hover:border-zinc-500 transition">
+            <ArrowUpRight size={15} />
+          </div>
+        </div>
+
+        <div className="mt-3 flex items-center justify-between border-t border-zinc-800 pt-2.5">
+          <span className="text-[10px] font-medium text-zinc-500 group-hover:text-zinc-300 transition">
+            View Project
+          </span>
+          <span className="text-[10px] text-zinc-600">Portfolio</span>
+        </div>
       </div>
-      <ArrowUpRight size={14} className="text-zinc-500 group-hover:text-white transition shrink-0 mt-0.5" />
-    </div>
-  </a>
-);
+    </a>
+  );
+};
 
 const WhatsappCTA: React.FC = () => (
   <a
